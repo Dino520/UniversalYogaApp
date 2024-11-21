@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dayInput" type="id" />
+    <item name="timeInput" type="id" />
+    <item name="capacityInput" type="id" />
+    <item name="durationInput" type="id" />
+    <item name="priceInput" type="id" />
+    <item name="typeInput" type="id" />
+    <item name="descriptionInput" type="id" />
+    <item name="saveButton" type="id" />
+</resources>

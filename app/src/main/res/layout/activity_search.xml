@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/searchInputTeacher"
+        android:hint="Search by Teacher Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/searchInputDate"
+        android:hint="Search by Date (e.g., 17/11/2024)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/searchInputDay"
+        android:hint="Search by Day of the Week (e.g., Monday)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Correct RecyclerView ID -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/resultRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
